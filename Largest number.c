@@ -1,8 +1,6 @@
 /*# include<stdio.h>
 int main(){
 int a,b,c;
-printf("NAME=sakshi\n");
-printf("Roll no =2100321530138\n");
 printf("input the three number");
 scanf("%d%d%d",&a,&b,&c);
 if(a>c)
@@ -24,6 +22,8 @@ if(a>c)
 
 return 0;
 }*/
+
+//---------2
 /*#include<stdio.h>
 int main(){
 int a[10],i,max=a[1];
@@ -79,7 +79,7 @@ for(i=0;i<6;i++){
 printf(" min number is %d\n",min);
 }
 */
-// duplicate element in array for sorted
+// delete duplicate element in sorted array
 /*#include<stdio.h>
 int main(){
 int a[10],i,eq=a[0];
@@ -96,8 +96,8 @@ else{
 }
 }
 }*/
- //duplicate element in array for unsorted
-#include<stdio.h>
+//deleted the duplicate element in unsorted array
+/*#include<stdio.h>
 int main(){
 int a[10],i,j,k,n;
 printf("enter the size of array");
@@ -122,28 +122,8 @@ for(i=0;i<n;i++){
 printf("%d",a[i]);
 }
 }
-/*
-#include<stdio.h>
-int main(){
-int a[10],i,n,max=a[1];
-printf("enter the size of array");
-scanf("%d",&n);
-printf("enter the number of array");
-for(i=1;i<n;i++){
-scanf("%d",&a[i]);
-}
-for(i=1;i<n;i++){
-printf("%d\t",a[i]);
-}
-for(i=1;i<n;i++){
-    if(a[i]>max){
-        max=a[i];
-  }
-}
-printf(" max number is %d\n",max);
-}
-
 */
+
 
 
 
