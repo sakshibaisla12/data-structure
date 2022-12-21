@@ -15,7 +15,7 @@ int main(){
     printf("%d",k);
 }
 */
-#include<stdio.h>
+/*#include<stdio.h>
 void display(int a){
 if(a<1){
     return ;
@@ -31,3 +31,4 @@ int main()
     int n=3;
     display(n);
 }
+*/
