@@ -1,7 +1,6 @@
-
-//////////////////////////////////////////----3sem---///////////////////////////////////////////////////
-
-/*#include<iostream>
+//////////////////////////////////////////----3 sem ---///////////////////////////////////////////////////
+//------------------------1find the largest number among the three numbers entered by the user.
+#include<iostream>
 using namespace std;
 int main(){
     int a,b,c;
@@ -18,8 +17,8 @@ int main(){
         cout<<"c is greater"<<endl;
     }*/
 
-//m2----
-   /* if(a>b){
+//-------------------------------------m2---------------------------------------------------------
+  if(a>b){
         if(a>c){
             cout<<"a is greater"<<endl;
         }
@@ -35,9 +34,8 @@ int main(){
 
     }
 }
-*/
-//}
-/*
+}
+
 int biggest(int a,int b){
 if(a>b){
     return a;
@@ -46,7 +44,8 @@ return b;
 }
 */
 
-/*#include<iostream>
+/////////-------------check whether an alphabet entered by the user is a vowel or a consonant.
+#include<iostream>
 using namespace std;
 int main(){
     char ch, lowercase,uppercase;
@@ -64,10 +63,10 @@ else{
       cout<<"enter number is consonant"<<endl;
 }
 }
-*/
 
 //MM2
-/*#include<iostream>
+
+#include<iostream>
 using namespace std;
 int main(){
     char ch;
@@ -82,11 +81,10 @@ else if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||
 else{
     cout<<"enter number is consonant"<<endl;
 }
-}*/
+}
 
-//4
-
-/*#include<iostream>
+//-----------check whether the year entered by the user is a leap year or not.
+#include<iostream>
 using namespace std;
 int main(){
     int year;
@@ -98,9 +96,9 @@ int main(){
     else{
         cout<<"enter year is not leap year"<<endl;
     }
-}*/
+}
 
-//QUES---7
+//QUES---7----Write a C program to read temperature in centigrade and display a suitable message according to temperature state below : Go to the editor
 #include<iostream>
 using namespace std;
 int main(){
@@ -126,19 +124,3 @@ int main(){
     cout<<"then Its Very Hot"<<endl;
    }
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
